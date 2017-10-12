@@ -26,7 +26,6 @@
   "dependencies": {
     "alohacore-lib": "file:../alohacore-lib",
     "alohacore-mnemonic": "file:../alohacore-mnemonic",
-    "alohacore-payment-protocol": "file:../alohacore-payment-protocol",
     "async": "^0.9.0",
     "bip38": "^1.3.0",
     "bn": "^1.0.1",
@@ -49,7 +48,7 @@
     "sinon": "^1.10.3",
     "supertest": "^3.0.0",
     "tingodb": "^0.3.4",
-    "uglify": "^0.1.1",
+    "uglify": "^0.1.5",
     "uuid": "^2.0.1"
   },
   "scripts": {
