@@ -35579,7 +35579,9 @@ _.each(levels, function(level, levelName) {
         }
         var lines = stack.split('\n');
         var caller = lines[2];
-        caller = ':' + caller.substr(6);
+        if(caller) {
+          caller = ':' + caller.substr(6);
+        }
         Error.stackTraceLimit = old;
       }
 
