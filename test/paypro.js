@@ -197,4 +197,12 @@ describe('paypro', function() {
     });
   });
 
+  it('Sign a PP payment', function(done) {
+    // TO DO
+  });
+
+  it('Verify a signed PP payment', function(done) {
+    // TO DO
+  });
+
 });
